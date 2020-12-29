@@ -26,7 +26,7 @@ let timer = setInterval(function() {
     
     } else {
 
-        document.getElementById("timer").innerHTML = "The countdown is over!";
+        document.getElementById("timer").innerHTML = "HAPPY NEW YEAR!!!";
     
     }
     
