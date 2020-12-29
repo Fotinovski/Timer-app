@@ -13,20 +13,23 @@ let timer = setInterval(function() {
         let secs = Math.floor((t % (1000 * 60)) / 1000);
     
         document.getElementById("timer-days").innerHTML = days +
-        "<span class='label'>DAY(S)</span>";
+        "<span class='label'>DAY(s)</span>";
     
         document.getElementById("timer-hours").innerHTML = ("0"+hours).slice(-2) +
-        "<span class='label'>HR(S)</span>";
+        "<span class='label'>HR(s)</span>";
     
         document.getElementById("timer-mins").innerHTML = ("0"+mins).slice(-2) +
-        "<span class='label'>MIN(S)</span>";
+        "<span class='label'>MIN(s)</span>";
     
         document.getElementById("timer-secs").innerHTML = ("0"+secs).slice(-2) +
-        "<span class='label'>SEC(S)</span>";
+        "<span class='label'>SEC(s)</span>";
     
     } else {
-
-        document.getElementById("timer").innerHTML = "HAPPY NEW YEAR!!!";
+        document.getElementById("timer").innerHTML = `
+        <video autoplay loop class="video">
+            <source src="./Comp2.mp4" type="video/mp4">
+        </video>
+        `;
     
     }
     
