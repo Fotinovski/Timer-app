@@ -26,11 +26,13 @@ let timer = setInterval(function() {
     
     } else {
         document.getElementById("timer").innerHTML = `
-        <video autoplay loop class="video">
-            <source src="./Comp2.mp4" type="video/mp4">
-        </video>
+        HAPPY NEW YEAR!
         `;
     
     }
     
 }, 1000);
+
+// <video autoplay loop class="video">
+// <source src="./Comp2.mp4" type="video/mp4">
+// </video>
