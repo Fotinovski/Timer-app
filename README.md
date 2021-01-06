@@ -1,5 +1,5 @@
-## Timer-app
+# 2022 Timer-app
 simple timer with HTML, CSS and JS
 
-# Check it out here
+Check it out here
 https://new-year-timer.netlify.app/
