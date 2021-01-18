@@ -1,4 +1,4 @@
-let endDate = new Date("Dec 31, 2020 24:00:00").getTime();
+let endDate = new Date("Jan 01, 2022     00:00:00").getTime();
 
 let timer = setInterval(function() {
 
@@ -32,7 +32,3 @@ let timer = setInterval(function() {
     }
     
 }, 1000);
-
-// <video autoplay loop class="video">
-// <source src="./Comp2.mp4" type="video/mp4">
-// </video>
